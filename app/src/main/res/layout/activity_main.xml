@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mchehab.com.toastsnackbar.MainActivity">
+
+    <Button
+        android:id="@+id/buttonShortToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Short Toast"/>
+
+    <Button
+        android:id="@+id/buttonLongToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long Toast"/>
+
+    <Button
+        android:id="@+id/buttonCustomToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Toast"/>
+
+    <Button
+        android:id="@+id/buttonShortSnackbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Short Snackbar"/>
+
+    <Button
+        android:id="@+id/buttonLongSnackbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long Snackbar"/>
+
+    <Button
+        android:id="@+id/buttonIndefinite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indefinite Snackbar"/>
+
+</LinearLayout>
